@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   body {
   background-color: black;
 }
@@ -67,6 +67,7 @@
   }
 
   .arrow {
+  align: center;
   transform: rotate(0deg);
   transition: transform 0.3s;
   color: #000
