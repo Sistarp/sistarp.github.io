@@ -1,9 +1,22 @@
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-desktop.css">
   <title>Clube de Assinaturas</title>
+  
+  <!-- Carregar o arquivo JavaScript para desktop -->
+  <script src="script-desktop.js"></script>
+  
+  <!-- Verificar se é um dispositivo móvel e carregar o arquivo JavaScript correspondente -->
+  <script>
+    if (window.innerWidth <= 768) {
+      var scriptMobile = document.createElement('script');
+      scriptMobile.src = 'script-mobile.js';
+      document.head.appendChild(scriptMobile);
+    }
+  </script>
 </head>
 
 <body>

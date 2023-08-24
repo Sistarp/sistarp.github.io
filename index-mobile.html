@@ -1,0 +1,78 @@
+<head>
+  <link rel="stylesheet" href="styles-mobile.css">
+
+  <title>Clube de Assinaturas</title>
+  
+  <!-- Carregar o arquivo JavaScript para desktop -->
+  <script src="script-mobile.js"></script>
+  
+  <!-- Verificar se é um dispositivo móvel e carregar o arquivo JavaScript correspondente -->
+  <script>
+    if (window.innerWidth > 768) {
+      var scriptDesktop = document.createElement('script');
+      scriptDesktop.src = 'script-desktop.js';
+      document.head.appendChild(scriptDesktop);
+    }
+  </script>
+</head>
+
+<body>
+  <h1 class="title"> Clubers Sistarp </h1>
+
+<div class="card-block">
+<div class="card-container">
+  <div class="beneficio-gold">
+    <p class=Gold><h2> Parceria Gold </h2></p>
+        <div class="card-header">
+          Vantagens do plano Gold
+           <span class="arrow">▼</span>
+    </div>
+          <div class="card-content-gold">
+    <!-- Conteúdo oculto do card -->
+    <p>• Desconto de 30% em toda a loja (Não acumulativo)</p>   
+    <p>• Frete grátis para a sua residência</p>
+    <p>• 1 hora de estacionamento grátis</p>   
+    <p>• Acesso a eventos e visitas as fábricas com a Akiko</p>
+    <p>• Sala de Workshop liberada</p>   
+    <p>• Consignação de 10 dias</p>
+    <p>• Canal exclusivo no WhatsApp</p>   
+    <p>• Consultoria na hora de comprar organizadores</p>
+    <p>• Selo de Parceira PO no site</p>   
+    <p>• Sorteio mensal de Kit de Organizadores</p>
+    <p>• Grupo exclusivo com reuniões mensal</p>   
+    <p>• Catálogo digital com preços</p>
+  </div>
+</div>
+  <div class="beneficio-silver">
+    <p class=silver><h2> Parceria Silver </h2></p>
+        <div class="card-header">
+          Vantagens do plano Silver
+           <span class="arrow">▼</span>
+    </div>
+          <div class="card-content-silver">
+    <!-- Conteúdo oculto do card -->
+    <p>• Desconto de 25% em toda a loja (Não acumulativo)</p>   
+    <p>• 30 minutos de estacionamento grátis</p>   
+    <p>• Acesso a eventos e visitas as fábricas com a Akiko</p>
+    <p>• Sala de Workshop liberada</p>   
+    <p>• Canal exclusivo no WhatsApp</p>   
+    <p>• Consultoria na hora de comprar organizadores</p>
+    <p>• Selo de Parceira PO no site</p>   
+    <p>• Sorteio mensal de Kit de Organizadores</p>
+  </div>
+</div>
+
+<div class="beneficio-brass">
+    <p class=brass><h2> Parceria Brass </h2></p>
+        <div class="card-header">
+          Vantagens do plano Brass
+           <span class="arrow">▼</span>
+    </div>
+          <div class="card-content-brass">
+    <!-- Conteúdo oculto do card -->
+    <p>• Desconto de 20% em toda a loja (Não acumulativo)</p>   
+    <p>• 30 minutos de estacionamento grátis</p>   
+    <p>• Canal exclusivo no WhatsApp</p>   
+  </div>
+</div>
+</html>
