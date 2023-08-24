@@ -9,6 +9,16 @@
   
   <!-- Carregar o arquivo JavaScript para desktop -->
   <script src="js/script-desktop.js"></script>
+  
+      <script>
+    // Redirecionar com base no tamanho da tela
+    if (window.innerWidth <= 1024) {
+      window.location.href = 'mobile.html';
+    } else {
+      window.location.href = 'desktop.html';
+    }
+  </script>
+
 
 </head>
 
