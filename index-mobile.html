@@ -1,26 +1,21 @@
-<html lang="en">
+<html lang="pt-br">
 <head>
   <link rel="stylesheet" href="styles-mobile.css">
-
   <title>Clube de Assinaturas</title>
-  
-  <!-- Carregar o arquivo JavaScript para desktop -->
+  <!-- Carregar o arquivo JavaScript para dispositivos móveis -->
   <script src="script-mobile.js"></script>
-  
   <!-- Verificar se é um dispositivo móvel e carregar o arquivo JavaScript correspondente -->
   <script>
-    if (window.innerWidth > 768) {
-      var scriptDesktop = document.createElement('script');
-      scriptDesktop.src = 'script-desktop.js';
-      document.head.appendChild(scriptDesktop);
+    if (window.innerWidth <= 768) {
+      var scriptMobile = document.createElement('script');
+      scriptMobile.src = 'script-mobile.js';
+      document.head.appendChild(scriptMobile);
     }
   </script>
 </head>
-
 <body>
   <h1 class="title"> Clubers Sistarp </h1>
-
-<div class="card-block">
+  <div class="card-block">
 <div class="card-container">
   <div class="beneficio-gold">
     <p class=Gold><h2> Parceria Gold </h2></p>
@@ -74,6 +69,9 @@
     <p>• Desconto de 20% em toda a loja (Não acumulativo)</p>   
     <p>• 30 minutos de estacionamento grátis</p>   
     <p>• Canal exclusivo no WhatsApp</p>   
-  </div>
-</div>
+	</div>
+	
+	<script src="script.js"></script>
+
+</body>
 </html>
