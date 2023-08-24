@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles-desktop.css">
+  <title>Clube de Assinaturas</title>
+  
+  <!-- Carregar o arquivo JavaScript para desktop -->
+  <script src="script-desktop.js"></script>
+  
+  <!-- Verificar se é um dispositivo móvel e carregar o arquivo JavaScript correspondente -->
+  <script>
+    if (window.innerWidth <= 768) {
+      var scriptMobile = document.createElement('script');
+      scriptMobile.src = 'script-mobile.js';
+      document.head.appendChild(scriptMobile);
+    }
+  </script>
+</head>
+
+<body>
+  <table>
+    <tr class="clube">
+      <td colspan="4">
+        <h1>Associe-se ao Clube Sistarp!</h1>
+      </td>
+    </tr>
+    <tr class="main">
+      <td class="beneficios">
+        <p class="beneficio-label">Beneficios</p>
+      </td>
+      <td class="beneficio-gold">
+        <p>Gold</p>
+      </td>
+      <td class="beneficio-silver">
+        <p>Silver</p>
+      </td>
+      <td class="beneficio-brass">
+        <p>Brass</p>
+      </td>
+    </tr>
+    <tr class="price">
+      <td></td>
+      <td><sup>R$</sup>100<sup>00</sup><sub>Mês</sub></td>
+      <td><sup>R$</sup>75<sup>00</sup><sub>Mês</sub></td>
+      <td><sup>R$</sup>50<sup>00</sup><sub>Mês</sub></td>
+    </tr>
+    <tr class="desconto">
+      <td class="beneficio-nome">Desconto na loja <i class="fas fa-question-circle desconto-interrogacao"></i></p>
+      <td class="beneficio">30%</td>
+      <td class="beneficio">25%</td>
+      <td class="beneficio">20%</td>
+    </tr>
+    <tr class="frete">
+      <td>Frete Grátis (Residência) <i class="fas fa-question-circle frete-interrogacao" title="Frete grátis para receber os nossos organizadores na sua residência"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="check">✔</span></td>
+      <td><span class="x">✕</span></td>
+    </tr>
+    <tr class="estacionamento">
+      <td>Estacionamento Grátis (1 hora) <i class="fas fa-question-circle estacionamento-interrogacao" title="Ganhe 1 hora no estacionamento conveniado"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="x">✕</span></td>
+      <td><span class="x">✕</span></td>
+    </tr>
+    <tr class="consignado">
+      <td>Consignação de 10 dias <i class="fas fa-question-circle consignado-interrogacao" title="Ganhe mais tempo para utilizar os produtos da Sistarp"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="x">✕</span></td>
+      <td><span class="x">✕</span></td>
+    </tr>
+    <tr class="sala">
+      <td>Sala de Workshop liberada <i class="fas fa-question-circle sala-interrogacao" title="Acesso a nossa sala a sua disposição para Workshops, vídeos e atender sua cliente"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="check">✔</span></td>
+      <td><span class="check">✔</span></td>
+    </tr>
+    <tr class="canal">
+      <td>Canal de atendimento exclusivo <i class="fas fa-question-circle canal-interrogacao" title="Atendimento prioritário e exclusivo atráves do nosso WhatsApp"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="check">✔</span></td>
+      <td><span class="check">✔</span></td>
+    </tr>
+    <tr class="consultoria">
+      <td>Consultoria de Organizadores <i class="fas fa-question-circle consultoria-interrogacao" title="Consultoria para lhe ajudar a escolher os melhores organizadores para sua cliente"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="check">✔</span></td>
+      <td><span class="x">✕</span></td>
+    </tr>
+    <tr class="selo">
+      <td>Selo de PO parceira no site <i class="fas fa-question-circle selo-interrogacao" title="Um selo de parceira PO no nosso site visível para todos os nossos clientes"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="check">✔</span></td>
+      <td><span class="x">✕</span></td>
+    </tr>
+    <tr class="sorteio">
+      <td>Sorteio mensal de organizador <i class="fas fa-question-circle sorteio-interrogacao" title="Todo mês sortearemos um kit de organizadores exclusivos"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="x">✕</span></td>
+      <td><span class="x">✕</span></td>
+    </tr>
+    <tr class="grupo">
+      <td>Grupo exclusivo com reuniões <i class="fas fa-question-circle grupo-interrogacao" title="Tenha acesso a um grupo exclusivo onde teremos reuniões para divulgação de novidades, eventos e melhorias"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="check">✔</span></td>
+      <td><span class="x">✕</span></td>
+    </tr>
+    <tr class="catalogo">
+      <td>Catálogo digital com preços <i class="fas fa-question-circle catalogo-interrogacao" title="Tenha acesso a um catálogo exclusivo de produtos com preços"></i></p>
+      <td><span class="check">✔</span></td>
+      <td><span class="x">✕</span></td>
+      <td><span class="x">✕</span></td>
+    </tr>
+    <tr class="btn">
+      <td></td>
+      <td><button class="order-btn gold">Quero ser Gold</button></td>
+      <td><button class="order-btn silver">Quero ser Silver</button></td>
+      <td><button class="order-btn brass">Quero ser Brass</button></td>
+    </tr>
+  </table>
+  <script src="script.js"></script>
+</body>
+
+</html>
