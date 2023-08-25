@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-  max-width: 100px; /* Defina o tamanho máximo da imagem */
+  max-width: 500px; /* Defina o tamanho máximo da imagem */
 }
 
   .card-block {
@@ -104,9 +104,8 @@ body {
   font-weight: 600;
   font-size: 14px;
   transition: background-color 0.3s ease;
-  background-color: #333333;
-  color: #fff;
-  
+  background: linear-gradient(to top, #008000, #39ff14);
+  color: #000;
   }
 
 .btn: hover {
