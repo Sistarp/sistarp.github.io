@@ -16,7 +16,7 @@ body {
     flex-wrap: wrap; /* Permite que os cards quebrem a linha quando necessário */
     justify-content: center; /* Centraliza horizontalmente os cards */
     gap: 20px; /* Espaço entre os cards */
-    background: linear-gradient(45deg, #252634 0%, #7578a8 100%);
+    background: linear-gradient(50deg, #f3b6b6 0%, #915858 100%);
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
