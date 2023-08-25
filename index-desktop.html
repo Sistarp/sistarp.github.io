@@ -7,8 +7,12 @@
 
   <title>Clube de Assinaturas</title>
   
-  <!-- Carregar o arquivo JavaScript para desktop -->
-  <script src="js/script-desktop.js"></script>
+  <script>
+    // Redirecionar para a versão mobile se necessário
+    if (window.innerWidth <= 1024 && !window.location.href.includes('mobile.html')) {
+      window.location.href = 'mobile.html';
+    }
+  </script>
 
 </head>
 
@@ -112,7 +116,8 @@
       <td><button class="order-btn brass">Quero ser Brass</button></td>
     </tr>
   </table>
-  <script src="script.js"></script>
+  <script src="js/script-desktop.js"></script>
+
 </body>
 
 </html>
