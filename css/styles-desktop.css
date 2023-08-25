@@ -2,6 +2,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+  max-width: 100px; /* Defina o tamanho máximo da imagem */
+}
+
 .clube {
   text-align: center;
   background-color: #f3b6b6;

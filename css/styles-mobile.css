@@ -2,11 +2,14 @@ body {
     background: linear-gradient(to top, #c38888, #fff, #c38888);
   }
 
-  .title {
-    color: #000; /* Altere a cor desejada */
-    font-family: "Arial", sans-serif; /* Altere a fonte desejada */
-    text-align: center;
-  }
+.header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+  max-width: 100px; /* Defina o tamanho máximo da imagem */
+}
 
   .card-block {
     display: flex; /* Usando flex para alinhar horizontalmente os cards */
